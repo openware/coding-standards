@@ -13,9 +13,10 @@
     "tslint.json",
     "dist"
   ],
-  "repository": "NONE",
+  "repository": "https://github.com/openware/coding-standards",
   "author": "Helios Technologies <contact@heliostech.fr>",
   "license": "UNLICENSED",
+  "private": false,
   "devDependencies": {
     "@types/ramda": "^0.25.36",
     "ramda": "^0.25.0",
