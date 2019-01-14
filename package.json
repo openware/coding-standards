@@ -1,6 +1,6 @@
 {
   "name": "@openware/coding-standards",
-  "version": "1.0.3",
+  "version": "0.1.0",
   "description": "Helios Tech JS/TS Development Coding Standards",
   "main": "tslint.json",
   "scripts": {
@@ -10,12 +10,12 @@
   },
   "files": [
     "tsconfig.json",
-    "tslint.json"
+    "tslint.json",
+    "dist"
   ],
   "repository": "NONE",
   "author": "Helios Technologies <contact@heliostech.fr>",
   "license": "UNLICENSED",
-  "private": true,
   "devDependencies": {
     "@types/ramda": "^0.25.36",
     "ramda": "^0.25.0",
