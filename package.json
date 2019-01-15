@@ -1,6 +1,6 @@
 {
   "name": "@openware/coding-standards",
-  "version": "0.1.0",
+  "version": "0.1.5",
   "description": "Helios Tech JS/TS Development Coding Standards",
   "main": "tslint.json",
   "scripts": {
