@@ -1,6 +1,6 @@
 {
   "name": "@openware/coding-standards",
-  "version": "0.1.5",
+  "version": "0.1.6",
   "description": "Helios Tech JS/TS Development Coding Standards",
   "main": "tslint.json",
   "scripts": {
@@ -11,7 +11,8 @@
   "files": [
     "tsconfig.json",
     "tslint.json",
-    "dist"
+    "dist",
+    "src"
   ],
   "repository": "https://github.com/openware/coding-standards",
   "author": "Helios Technologies <contact@heliostech.fr>",
