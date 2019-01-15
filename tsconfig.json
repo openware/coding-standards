@@ -31,7 +31,6 @@
   ],
   "exclude": [
     "dist",
-    "src/*.test.*",
-    "node_modules"
+    "src/*.test.*"
   ]
 }
