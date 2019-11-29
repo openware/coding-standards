@@ -1,1 +1,1 @@
-export * from './commigMsg';
+export * from './commitMsg';
