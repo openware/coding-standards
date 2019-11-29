@@ -6,7 +6,7 @@ import {
     ERR_TOO_SHORT,
     isCommitMsgValid,
     MIN_LENGTH,
-} from './commigMsg';
+} from './commitMsg';
 
 describe('#isCommitMsgValid', () => {
     it('should fail when message starts with ccc-ddd', () => {

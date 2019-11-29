@@ -6,7 +6,8 @@
   "scripts": {
     "build": "tsc",
     "lint": "tsc --noEmit && tslint --project .",
-    "clean": "rimraf dist"
+    "clean": "rimraf dist",
+    "test": "jest"
   },
   "files": [
     "tsconfig.json",
@@ -19,11 +20,18 @@
   "license": "UNLICENSED",
   "private": false,
   "devDependencies": {
-    "@types/ramda": "^0.25.36",
-    "ramda": "^0.25.0",
-    "tslint": "^5.11.0",
-    "tslint-eslint-rules": "^5.3.1",
-    "tslint-react": "^3.6.0",
-    "typescript": "^3.0.1"
+    "@types/jest": "^24.0.23",
+    "@types/node": "^12.12.14",
+    "@types/ramda": "0.25.36",
+    "ramda": "0.25.0",
+    "rimraf": "^3.0.0",
+    "tslint": "5.11.0",
+    "tslint-eslint-rules": "5.3.1",
+    "tslint-react": "3.6.0",
+    "typescript": "3.0.1"
+  },
+  "dependencies": {
+    "babel-jest": "^24.9.0",
+    "ts-jest": "^24.2.0"
   }
 }
