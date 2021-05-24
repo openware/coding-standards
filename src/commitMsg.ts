@@ -17,7 +17,7 @@ const lift = (rule: Rule, error: string) => ({ left, right }: Result) =>
     right ? { right } : left && rule(left) ? { left } : { right: error };
 
 // tests
-const startsWithJiraId: Rule = msg => msg.startsWith('Feature:') || msg.startsWith('Fix:');
+const startsWithJiraId: Rule = msg => msg.startsWith('Feature:') || msg.startsWith('Fix:') || msg.startsWith('Enhancement:');
 
 const notEndsWithNonAlpha: Rule = msg => RE_ENDS_WITH_NON_ALPHA.test(msg);
 
